@@ -24,4 +24,19 @@ int main() {
 		outfile << baris << endl;
 	}
 	outfile.close();
+
+	ifstream infile;
+	infile.open(Namafile + ".txt", ios::in);
+
+	cout << endl << ">= Membuka Dan membaca File " << endl;
+	if (infile.is_open())
+	{
+		while (getline(infile, baris))
+		{
+			cout << baris << '\n';
+		}
+		infile.close();
+	}
+	else cout << "Unable to Open File";
+	return 0;
 }
