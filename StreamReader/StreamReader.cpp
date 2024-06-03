@@ -30,6 +30,9 @@ int main() {
 	cout << endl << ">= Membuka Dan membaca File " << endl;
 	if (infile.is_open())
 	{
-		while (getline(infile,baris))
+		while (getline(infile, baris))
+		{
+			cout << baris << '\n';
+		}
 	}
 }
