@@ -10,4 +10,9 @@ int main() {
 
 	outfile.open("AgungCina.txt");
 
+	cout << "Menulis File, \'q\' untuk keluar" << endl;
+
+	while (true) {
+
+	}
 }
