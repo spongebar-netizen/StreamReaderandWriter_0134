@@ -12,3 +12,5 @@ int main() {
 	cin >> Namafile;
 
 	ofstream outfile;
+
+	outfile.open(Namafile + ".txt", ios::out);
