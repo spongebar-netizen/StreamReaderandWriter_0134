@@ -27,4 +27,9 @@ int main() {
 
 	infile.open("UcupNangid.txt");
 
+	cout << endl << ">= Membuka Dan membaca File " << endl;
+	if (infile.is_open())
+	{
+		while (getline(infile,baris))
+	}
 }
